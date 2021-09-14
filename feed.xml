@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+
+  <channel>
+    <title>
+      <![CDATA[  Ai4Energy：奔向智慧能源新时代  ]]>
+    </title>
+    <link> https://ai4energy.org </link>
+    <description>
+      <![CDATA[  Website for Ai4Energy  ]]>
+    </description>
+    <atom:link
+      href="https://ai4energy.org/feed.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+
+<item>
+  <title>
+    <![CDATA[  碳中和与能源相关开源软件工具  ]]>
+  </title>
+  <link> https://ai4energy.org/energy-related-open-soft/overview/index.html </link>
+  <guid> https://ai4energy.org/energy-related-open-soft/overview/index.html </guid>
+  <description>
+    <![CDATA[  碳中和与能源相关开源软件工具  ]]>
+  </description>  
+    
+  <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Mingtao Li</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  环境变量入门  ]]>
+  </title>
+  <link> https://ai4energy.org/tutorial/some-cs-intros/env-intro/index.html </link>
+  <guid> https://ai4energy.org/tutorial/some-cs-intros/env-intro/index.html </guid>
+  <description>
+    <![CDATA[  环境变量入门  ]]>
+  </description>  
+    
+  <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Mingtao Li</atom:name>
+  </atom:author>
+        
+</item>
+</channel></rss>
