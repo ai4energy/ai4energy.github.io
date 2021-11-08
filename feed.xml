@@ -44,10 +44,29 @@
   <title>
     <![CDATA[  git 和 github  ]]>
   </title>
-  <link> https://ai4energy.org/tutorial/some-cs-intros/git-intro/index.html </link>
-  <guid> https://ai4energy.org/tutorial/some-cs-intros/git-intro/index.html </guid>
+  <link> https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html </link>
+  <guid> https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html </guid>
   <description>
     <![CDATA[  git 和 github  ]]>
+  </description>  
+    
+  <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Mingtao Li</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  环境变量入门  ]]>
+  </title>
+  <link> https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html </link>
+  <guid> https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html </guid>
+  <description>
+    <![CDATA[  环境变量入门  ]]>
   </description>  
     
   <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  
@@ -67,25 +86,6 @@
   <guid> https://ai4energy.org/energy-related-open-soft/overview/index.html </guid>
   <description>
     <![CDATA[  碳中和与能源相关开源软件工具  ]]>
-  </description>  
-    
-  <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  
-  
-  
-  <atom:author>
-    <atom:name>Mingtao Li</atom:name>
-  </atom:author>
-        
-</item>
-
-<item>
-  <title>
-    <![CDATA[  环境变量入门  ]]>
-  </title>
-  <link> https://ai4energy.org/tutorial/some-cs-intros/env-intro/index.html </link>
-  <guid> https://ai4energy.org/tutorial/some-cs-intros/env-intro/index.html </guid>
-  <description>
-    <![CDATA[  环境变量入门  ]]>
   </description>  
     
   <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  

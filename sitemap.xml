@@ -2,37 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://ai4energy.org/tutorial/simulation/gproms/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/06-control/overview/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/simulation/overview/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/05-optimization/pyomo/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/some-cs-intros/docker-intro/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/modeling/overview/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/ems/foresee/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/control/overview/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/03-modeling/overview/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -50,25 +32,67 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/optimization/reopt/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/04-simulation/overview/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/simulation/modelica/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/01-some-cs-intros/02-make-intro/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/some-cs-intros/program-guide/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/07-ems/foresee/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/julia/overview/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/01-some-cs-intros/04-program-guide/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/04-simulation/modelica/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/04-simulation/ees/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/04-simulation/gproms/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/05-optimization/reopt/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/07-ems/overview/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -80,13 +104,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/simulation/ees/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/02-julia/overview/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/some-cs-intros/git-intro/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/05-optimization/openmdao/index.html</loc>
+    <lastmod>2021-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/tutorial/01-some-cs-intros/05-docker-intro/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -98,25 +128,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/optimization/jump.jl/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/some-cs-intros/env-intro/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/ems/overview/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/some-cs-intros/make-intro/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/05-optimization/overview/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -134,19 +146,7 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/tutorial/optimization/openmdao/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/optimization/overview/index.html</loc>
-    <lastmod>2021-11-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://ai4energy.org/tutorial/optimization/pyomo/index.html</loc>
+    <loc>https://ai4energy.org/tutorial/05-optimization/jump.jl/index.html</loc>
     <lastmod>2021-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
