@@ -7,3 +7,5 @@
 # Julia快速入门
 
 [Julia简介及安装](01-Julia简介及安装)
+
+[Julia的REPL及变量](02-Julia的REPL及变量)
