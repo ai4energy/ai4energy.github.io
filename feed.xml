@@ -61,6 +61,25 @@
 
 <item>
   <title>
+    <![CDATA[  Julia简介及安装  ]]>
+  </title>
+  <link> https://ai4energy.org/julia-tutorial/01-Julia简介及安装/index.html </link>
+  <guid> https://ai4energy.org/julia-tutorial/01-Julia简介及安装/index.html </guid>
+  <description>
+    <![CDATA[  Julia简介及安装  ]]>
+  </description>  
+    
+  <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Mingtao Li</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  综合能源系统自动控制概述  ]]>
   </title>
   <link> https://ai4energy.org/chapters/01/index.html </link>
