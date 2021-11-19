@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  02-Julia的REPL及变量  ]]>
+  </title>
+  <link> https://ai4energy.org/julia-tutorial/02-Julia的REPL及变量/index.html </link>
+  <guid> https://ai4energy.org/julia-tutorial/02-Julia的REPL及变量/index.html </guid>
+  <description>
+    <![CDATA[  Julia的REPL及变量  ]]>
+  </description>  
+    
+  <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Mingtao Li</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Julia快速入门  ]]>
   </title>
   <link> https://ai4energy.org/julia-tutorial/index.html </link>

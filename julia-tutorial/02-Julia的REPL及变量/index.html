@@ -1,0 +1,222 @@
+<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <link rel=stylesheet  href="/libs/highlight/github.min.css"> <link rel=stylesheet  href="/css/franklin.css"> <link rel=stylesheet  href="/css/hypertext.css"> <link rel=icon  href="/assets/favicon.png"> <title>02-Julia的REPL及变量</title> <header> <h1><b> <center>Ai4Energy: 奔向智慧能源新时代</center> </b></h1> <nav> | <a href="/" class=current >主页</a> | <a href="/news/">新闻</a> | <a href="/challenge/">挑战性问题</a> | <a href="/roadmap/">路线图</a> | <a href="/documentation/">文档</a> | <a href="/julia-tutorial/">Julia快速入门</a> | <a href="https://github.com/ai4energy/">源代码</a> <hr> </nav> </header> <div class=franklin-content ><h1 id="julia的repl及变量"><a href="#julia的repl及变量" class=header-anchor >Julia的REPL及变量</a></h1> <h2 id="julia的repl使用"><a href="#julia的repl使用" class=header-anchor >Julia的REPL使用</a></h2> <p>在Julia的REPL中共有四种模式，分别是正常模式、package模式、help模式和shell模式。</p> <h3 id="1help模式"><a href="#1help模式" class=header-anchor >（1）help模式</a></h3> <p>在Julia提示符下按“？”键进入help模式，该模式下可用来查询操作用法。</p> <h3 id="2shell模式"><a href="#2shell模式" class=header-anchor >（2）shell模式</a></h3> <p>在Julia提示符下按“;”键进入shell模式，可以在此模式下执行shell命令。</p> <p>因此，可以在该模式下使用如下代码，运行该文件夹下的“.jl”文件：</p> <pre><code class="julia hljs">julia hello_julia.jl</code></pre>
+<h3 id="3package模式"><a href="#3package模式" class=header-anchor >（3）package模式</a></h3>
+<p>在Julia提示符下按“&#93;”键进入package模式，在该模式下进行安装包和卸载包的操作，通过“add 包名”与“rm 包名”进行操作。</p>
+<h3 id="4正常模式"><a href="#4正常模式" class=header-anchor >（4）正常模式</a></h3>
+<p>在以上三种模式中，按“backspace”键回到正常模式，在正常模式下可以使用“Pkg”这个包查看安装使用了哪些包，代码如下：</p>
+<pre><code class="julia hljs"><span class=hljs-keyword >using</span> Pkg
+Pkg.status()</code></pre>
+<p>可以使用以下代码升级安装的库：</p>
+<pre><code class="julia hljs">Pkg.update()</code></pre>
+<p>使用以下代码查看所在的文件路径，并且切换文件路径</p>
+<pre><code class="julia hljs">pwd()
+cd(<span class=hljs-string >&quot;c:\\Users\\DELL\\Desktop&quot;</span>)</code></pre>
+<h2 id="julia的整型和浮点类型变量"><a href="#julia的整型和浮点类型变量" class=header-anchor >Julia的整型和浮点类型变量</a></h2>
+<h3 id="整型类型"><a href="#整型类型" class=header-anchor >整型类型</a></h3>
+<p><strong>Int64&#40;&#41;,可以将浮点类型转为为整数类型</strong></p>
+<p><strong>使用“typeof&#40;&#41;&quot;来查看类型</strong></p>
+<p><strong>使用“supertype&#40;&#41;”逐级查看父类型</strong></p>
+<p><strong>使用“subtypes&#40;&#41;”查看该类型的子类型</strong></p>
+<p><strong>使用“sizeof&#40;&#41;”查看某个类型所占的字节数</strong></p>
+<h3 id="浮点数"><a href="#浮点数" class=header-anchor >浮点数</a></h3>
+<p><strong>Float64&#40;&#41;，可以将整数类型转换为浮点类型</strong></p>
+<table><tr><th align=right >Type<th align=right >Precision<th align=right >Number of bits<tr><td align=right >Float16<td align=right >half<td align=right >16<tr><td align=right >Float32<td align=right >single<td align=right >32<tr><td align=right >Float64<td align=right >double<td align=right >64</table>
+<p>在32位系统中，整数默认是Int32类型，浮点数默认是Float32类型;在64位系统中， 整数默认是Int64类型，浮点数默认是Float64类型。</p>
+<h3 id="十六进制"><a href="#十六进制" class=header-anchor >十六进制</a></h3>
+<p>由于Julia的整数中定义了Int和UInt两种大类型，其中Int用十进制表示， UInt类型用十六进制表示， 当然我们也可以以0b开头表示二进制，以0o开头表示八进制</p>
+<p><strong>二进制与十六进制也支持有符号数，直接在前面添加“-”即可，并且可以使用“typemin&#40;&#41;”与“typemax&#40;&#41;”来查看最小值与最大值</strong></p>
+<p>在浮点数中0.0与-0.0的表示方法也是有分别的</p>
+<p><strong>使用“eps&#40;&#41;”可以用来查看精度</strong></p>
+<p>数值越大，精度也就越低，也就是说，浮点数在0附近最稠密，随着数值越来越大，数值越来越稀疏，数值间的距离呈指数增长。</p>
+<hr />
+<h2 id="ol_start3_复数和分数"><a href="#ol_start3_复数和分数" class=header-anchor ><ol start=3 >
+<li><p>复数和分数</p>
+
+</ol>
+</a></h2>
+<h3 id="复数的基本运算"><a href="#复数的基本运算" class=header-anchor >复数的基本运算</a></h3>
+<pre><code class="julia hljs">x=<span class=hljs-number >1</span>+<span class=hljs-number >2</span><span class=hljs-literal >im</span>
+(<span class=hljs-number >1</span>+<span class=hljs-number >2</span><span class=hljs-literal >im</span>)*(<span class=hljs-number >2</span>-<span class=hljs-number >3</span><span class=hljs-literal >im</span>)
+
+(<span class=hljs-number >1</span>+<span class=hljs-number >2</span><span class=hljs-literal >im</span>)^<span class=hljs-number >2</span>
+
+<span class=hljs-number >2</span>(<span class=hljs-number >1</span>-<span class=hljs-number >1</span><span class=hljs-literal >im</span>)</code></pre>
+<h3 id="复数运算的优先级"><a href="#复数运算的优先级" class=header-anchor >复数运算的优先级</a></h3>
+<pre><code class="julia hljs"><span class=hljs-number >2</span>/<span class=hljs-number >5</span><span class=hljs-literal >im</span>
+<span class=hljs-number >2</span>/<span class=hljs-number >5</span><span class=hljs-literal >im</span>==-<span class=hljs-number >2</span>/<span class=hljs-number >5</span>*<span class=hljs-literal >im</span></code></pre>
+<h3 id="复数的其他运算"><a href="#复数的其他运算" class=header-anchor >复数的其他运算</a></h3>
+<pre><code class="julia hljs">sqrt(<span class=hljs-number >2</span>+<span class=hljs-number >3</span><span class=hljs-literal >im</span>) 	<span class=hljs-comment >#开根号</span>
+cos(<span class=hljs-number >1</span>+<span class=hljs-number >2</span><span class=hljs-literal >im</span>) 		<span class=hljs-comment >#cos值</span>
+exp(<span class=hljs-number >1</span>+<span class=hljs-number >2</span><span class=hljs-literal >im</span>)		<span class=hljs-comment >#e的x次方</span>
+abs(<span class=hljs-number >1</span>+<span class=hljs-number >2</span><span class=hljs-literal >im</span>)		<span class=hljs-comment >#求模值</span>
+real()				  <span class=hljs-comment >#求实部</span>
+imag()				<span class=hljs-comment >#求虚部</span>
+angle()				<span class=hljs-comment >#求夹角</span></code></pre>
+<h3 id="分数操作"><a href="#分数操作" class=header-anchor >分数操作</a></h3>
+<h3 id="juliaa_hrefhttpsblogcsdnnetandiao1218articledetails101192640算数函数"><a href="#juliaa_hrefhttpsblogcsdnnetandiao1218articledetails101192640算数函数" class=header-anchor >Julia<a href="https://blog.csdn.net/andiao1218/article/details/101192640">算数函数</a></a></h3>
+<hr />
+<h2 id="ol_start4_字符串"><a href="#ol_start4_字符串" class=header-anchor ><ol start=4 >
+<li><p>字符串</p>
+
+</ol>
+</a></h2>
+<p><strong>用单引号表示字符，双引号表示字符串</strong></p>
+<h3 id="julia的下标是从1开始的"><a href="#julia的下标是从1开始的" class=header-anchor ><strong>julia的下标是从1开始的</strong></a></h3>
+<h3 id="特殊编码"><a href="#特殊编码" class=header-anchor >特殊编码</a></h3>
+<p>也可以使用“firstindex&#40;&#41;”与“lastindex&#40;&#41;”来索引</p>
+<pre><code class="julia hljs"><span class=hljs-keyword >for</span> i = firstindex(str):lastindex(str)
+	<span class=hljs-keyword >try</span>
+		println(s[i])
+	<span class=hljs-keyword >catch</span>
+	
+	<span class=hljs-keyword >end</span>
+<span class=hljs-keyword >end</span></code></pre>
+<p>也可以直接将字符串当作遍历的对象，并且不需要惊醒异常处理</p>
+<pre><code class="julia hljs"><span class=hljs-keyword >for</span> i <span class=hljs-keyword >in</span> str
+	println(i)
+<span class=hljs-keyword >end</span></code></pre>
+<h3 id="字符串的其他操作"><a href="#字符串的其他操作" class=header-anchor >字符串的其他操作</a></h3>
+<h4 id="拼接string"><a href="#拼接string" class=header-anchor >拼接:string&#40;&#41;</a></h4>
+<pre><code class="julia hljs">x=<span class=hljs-string >&quot;Hello&quot;</span>
+y=<span class=hljs-string >&quot;World&quot;</span>
+string(x,<span class=hljs-string >&quot;,&quot;</span>,y,<span class=hljs-string >&quot;\n&quot;</span>)
+
+x*<span class=hljs-string >&#x27;,&#x27;</span>*y			<span class=hljs-comment >#效果等同于上一步代码</span>
+
+string(<span class=hljs-string >&quot;<span class=hljs-variable >$x</span> <span class=hljs-variable >$y</span> !&quot;</span>)			<span class=hljs-comment >#效果等同于上一步代码</span></code></pre>
+<h4 id="全部大写变小写lowercase"><a href="#全部大写变小写lowercase" class=header-anchor >全部大写变小写：lowercase&#40;&#41;</a></h4>
+<pre><code class="julia hljs">lowercase(<span class=hljs-string >&quot;HELLO&quot;</span>)</code></pre>
+<h4 id="全部小写变大写uppercase"><a href="#全部小写变大写uppercase" class=header-anchor >全部小写变大写：uppercase&#40;&#41;</a></h4>
+<pre><code class="julia hljs">uppercase(<span class=hljs-string >&quot;hello&quot;</span>)</code></pre>
+<h4 id="替换replace"><a href="#替换replace" class=header-anchor >替换：replace&#40;&#41;</a></h4>
+<pre><code class="julia hljs">replace(<span class=hljs-string >&quot;I want to learn Python&quot;</span>, <span class=hljs-string >&quot;Python&quot;</span> =&gt; <span class=hljs-string >&quot;Julia&quot;</span>)
+replace(<span class=hljs-string >&quot;ABCD&quot;</span>, <span class=hljs-string >&#x27;A&#x27;</span>=&gt;<span class=hljs-string >&#x27;E&#x27;</span>)</code></pre>
+<h4 id="以字符串开始startswith"><a href="#以字符串开始startswith" class=header-anchor >以字符串开始：startswith&#40;&#41;</a></h4>
+<pre><code class="julia hljs">startswith(<span class=hljs-string >&quot;ni hao&quot;</span>,<span class=hljs-string >&quot;ni&quot;</span>)</code></pre>
+<p>注意开头不能有空格</p>
+<h4 id="以字符串结束endswith"><a href="#以字符串结束endswith" class=header-anchor >以字符串结束：endswith&#40;&#41;</a></h4>
+<pre><code class="julia hljs">endswith(<span class=hljs-string >&quot;ni hao&quot;</span>,<span class=hljs-string >&quot;hao&quot;</span>)</code></pre>
+<h4 id="删去字符串中空格strip"><a href="#删去字符串中空格strip" class=header-anchor >删去字符串中空格：strip&#40;&#41;</a></h4>
+<pre><code class="julia hljs">strip(<span class=hljs-string >&quot; julia is interesting&quot;</span>)</code></pre>
+<h4 id="分割字符串split"><a href="#分割字符串split" class=header-anchor >分割字符串：split&#40;&#41;</a></h4>
+<pre><code class="julia hljs">s=split(<span class=hljs-string >&quot;one two three&quot;</span>)</code></pre>
+<pre><code class="julia hljs">s=split(<span class=hljs-string >&quot;one|two|three&quot;</span>,<span class=hljs-string >&quot;|&quot;</span>)</code></pre>
+<h4 id="合并array中的字符串join"><a href="#合并array中的字符串join" class=header-anchor >合并Array中的字符串：join&#40;&#41;</a></h4>
+<pre><code class="julia hljs">join(s)
+join(s,<span class=hljs-string >&quot; &quot;</span>)
+join([<span class=hljs-string >&quot;abcd&quot;</span>,<span class=hljs-string >&quot;efg&quot;</span>,<span class=hljs-string >&quot;kmn&quot;</span>,<span class=hljs-string >&quot;xyz&quot;</span>],<span class=hljs-string >&quot;,&quot;</span>,<span class=hljs-string >&quot; and &quot;</span>)
+	&gt;&gt;<span class=hljs-string >&quot;abcd,efg,kmn and xyz&quot;</span></code></pre>
+<h4 id="字符串重复repeat或者"><a href="#字符串重复repeat或者" class=header-anchor >字符串重复：repeat&#40;&#41;或者“^”</a></h4>
+<pre><code class="julia hljs">repeat(<span class=hljs-string >&#x27;a&#x27;</span>,<span class=hljs-number >10</span>)
+repeat(<span class=hljs-string >&quot;abcd...&quot;</span>,<span class=hljs-number >10</span>)
+<span class=hljs-string >&quot;abc&quot;</span>^<span class=hljs-number >3</span></code></pre>
+<h4 id="数学运算"><a href="#数学运算" class=header-anchor >数学运算</a></h4>
+<pre><code class="julia hljs"><span class=hljs-string >&quot;abcde&quot;</span>&lt;<span class=hljs-string >&quot;xyz&quot;</span>
+<span class=hljs-string >&quot;abcde&quot;</span> != <span class=hljs-string >&quot;abcde&quot;</span>
+<span class=hljs-string >&quot;1+2=3&quot;</span>==<span class=hljs-string >&quot;1+2=<span class=hljs-subst >$(<span class=hljs-number >1</span>+<span class=hljs-number >2</span>)</span>&quot;</span></code></pre>
+<h4 id="判断是否有某个字符串occursin"><a href="#判断是否有某个字符串occursin" class=header-anchor >判断是否有某个字符串：occursin&#40;&#41;</a></h4>
+<pre><code class="julia hljs">occursin(<span class=hljs-string >&quot;ni&quot;</span>,<span class=hljs-string >&quot;ni hao &quot;</span>)</code></pre>
+<h4 id="查询某个字符在字符串中的位置findfirst或者findnext"><a href="#查询某个字符在字符串中的位置findfirst或者findnext" class=header-anchor >查询某个字符在字符串中的位置：findfirst&#40;&#41;或者findnext&#40;&#41;</a></h4>
+<pre><code class="julia hljs">findfirst(isequal(<span class=hljs-string >&#x27;x&#x27;</span>),<span class=hljs-string >&quot;xilinx&quot;</span>)
+	&gt;&gt;<span class=hljs-number >1</span>
+findnext(isequal(<span class=hljs-string >&#x27;x&#x27;</span>),<span class=hljs-string >&quot;xilinx&quot;</span>,<span class=hljs-number >1</span>)
+	&gt;&gt;<span class=hljs-number >1</span>
+findnext(isequal(<span class=hljs-string >&#x27;x&#x27;</span>),<span class=hljs-string >&quot;xilinx&quot;</span>,<span class=hljs-number >2</span>)
+	&gt;&gt;<span class=hljs-number >6</span></code></pre>
+<h4 id="字符串长度与索引length与index"><a href="#字符串长度与索引length与index" class=header-anchor >字符串长度与索引：length&#40;&#41;与index&#40;&#41;</a></h4>
+<pre><code class="julia hljs">x=<span class=hljs-string >&quot;abcdefgh&quot;</span>
+length(x)
+firstindex(x)
+lastindex(x)</code></pre>
+<h4 id="跨多行字符串"><a href="#跨多行字符串" class=header-anchor >跨多行字符串</a></h4>
+<pre><code class="julia hljs"><span class=hljs-string >&quot;&quot;&quot;
+hello
+world
+!
+&quot;&quot;&quot;</span></code></pre>
+<h4 id="支持正则表达式"><a href="#支持正则表达式" class=header-anchor >支持正则表达式</a></h4>
+<hr />
+<h2 id="ol_start5_tuple元组"><a href="#ol_start5_tuple元组" class=header-anchor ><ol start=5 >
+<li><p>Tuple元组</p>
+
+</ol>
+</a></h2>
+<p>元组类型使用&#40;&#41;表示，其内容不可更改</p>
+<pre><code class="julia hljs">x1=(<span class=hljs-number >1</span>,<span class=hljs-number >2</span>,<span class=hljs-number >3</span>,<span class=hljs-number >4</span>)
+x1[<span class=hljs-number >1</span>]		<span class=hljs-comment >#索引序号仍从1开始</span>
+length(x1)
+x1[<span class=hljs-number >2</span>:<span class=hljs-keyword >end</span>]
+x2=(<span class=hljs-number >1</span>,<span class=hljs-number >2.4</span>,<span class=hljs-string >&#x27;a&#x27;</span>,<span class=hljs-string >&quot;hello&quot;</span>)
+x3=(a=<span class=hljs-number >1</span>,b=<span class=hljs-number >2</span>)
+x3.a
+	&gt;&gt;<span class=hljs-number >1</span></code></pre>
+<h2 id="ol_start6_dict字典"><a href="#ol_start6_dict字典" class=header-anchor ><ol start=6 >
+<li><p>Dict字典</p>
+
+</ol>
+</a></h2>
+<h3 id="字典基础操作"><a href="#字典基础操作" class=header-anchor >字典基础操作</a></h3>
+<pre><code class="julia hljs">dic=<span class=hljs-built_in >Dict</span>(<span class=hljs-string >&quot;aa&quot;</span>=&gt;<span class=hljs-number >1</span>,<span class=hljs-string >&quot;bb&quot;</span>=&gt;<span class=hljs-number >2</span>,<span class=hljs-string >&quot;cc&quot;</span>=&gt;<span class=hljs-number >3</span>)
+dic.count
+dic.keys
+dic.vals
+dic[<span class=hljs-string >&quot;aa&quot;</span>]</code></pre>
+<h3 id="将array转成字典"><a href="#将array转成字典" class=header-anchor >将Array转成字典</a></h3>
+<pre><code class="julia hljs">ary=[<span class=hljs-string >&quot;one&quot;</span>=&gt;<span class=hljs-number >1</span>,<span class=hljs-string >&quot;two&quot;</span>=&gt;<span class=hljs-number >2</span>]
+dic=<span class=hljs-built_in >Dict</span>(ary)</code></pre>
+<h3 id="将array中的tuple转成字典"><a href="#将array中的tuple转成字典" class=header-anchor >将Array中的Tuple转成字典</a></h3>
+<pre><code class="julia hljs">ary=[(<span class=hljs-string >&quot;one&quot;</span>,<span class=hljs-number >1</span>),(<span class=hljs-string >&quot;two&quot;</span>,<span class=hljs-number >2</span>)]
+dic=<span class=hljs-built_in >Dict</span>(ary)</code></pre>
+<h3 id="将两个array组合成字典zip"><a href="#将两个array组合成字典zip" class=header-anchor >将两个Array组合成字典：zip&#40;&#41;</a></h3>
+<pre><code class="julia hljs">vas=[<span class=hljs-number >1</span>,<span class=hljs-number >2</span>,<span class=hljs-number >3</span>]
+kes=[<span class=hljs-string >&quot;one&quot;</span>,<span class=hljs-string >&quot;two&quot;</span>,<span class=hljs-string >&quot;three&quot;</span>]
+dic=<span class=hljs-built_in >Dict</span>(zip(kes,vas))</code></pre>
+<h3 id="新建一个字典"><a href="#新建一个字典" class=header-anchor >新建一个字典</a></h3>
+<pre><code class="julia hljs">d=<span class=hljs-built_in >Dict</span>()
+d[<span class=hljs-string >&quot;one&quot;</span>]=<span class=hljs-number >1</span></code></pre>
+<h3 id="在新建空字典时指定类型"><a href="#在新建空字典时指定类型" class=header-anchor >在新建空字典时指定类型</a></h3>
+<pre><code class="julia hljs">d=<span class=hljs-built_in >Dict</span>{<span class=hljs-built_in >String</span>,<span class=hljs-built_in >Int64</span>}()</code></pre>
+<h3 id="字典遍历"><a href="#字典遍历" class=header-anchor >字典遍历</a></h3>
+<pre><code class="julia hljs">d=<span class=hljs-built_in >Dict</span>(<span class=hljs-string >&quot;one&quot;</span>=&gt;<span class=hljs-number >1</span>,<span class=hljs-string >&quot;two&quot;</span>=&gt;<span class=hljs-number >2</span>,<span class=hljs-string >&quot;three&quot;</span>=&gt;<span class=hljs-number >3</span>)
+<span class=hljs-keyword >for</span> (k,v) <span class=hljs-keyword >in</span> d
+	println(<span class=hljs-string >&quot;value is <span class=hljs-variable >$v</span> for key <span class=hljs-variable >$k</span>&quot;</span>)
+<span class=hljs-keyword >end</span>
+
+<span class=hljs-keyword >for</span> v <span class=hljs-keyword >in</span> values(d)
+	println(v)
+<span class=hljs-keyword >end</span></code></pre>
+<h3 id="字典的其他用法"><a href="#字典的其他用法" class=header-anchor >字典的其他用法</a></h3>
+<pre><code class="julia hljs">d=<span class=hljs-built_in >Dict</span>(<span class=hljs-string >&quot;one&quot;</span>=&gt;<span class=hljs-number >1</span>,<span class=hljs-string >&quot;two&quot;</span>=&gt;<span class=hljs-number >2</span>)
+get(d,<span class=hljs-string >&quot;three&quot;</span>,-<span class=hljs-number >1</span>)
+get(d,<span class=hljs-string >&quot;one&quot;</span>,-<span class=hljs-number >1</span>)
+delete!(d,<span class=hljs-string >&quot;one&quot;</span>)
+
+<span class=hljs-comment >#使用fieldnames查看该类型的fieldname</span>
+fieldnames(typeof(d))</code></pre>
+<h2 id="ol_start7_set集合"><a href="#ol_start7_set集合" class=header-anchor ><ol start=7 >
+<li><p>Set集合</p>
+
+</ol>
+</a></h2>
+<pre><code class="julia hljs">S=<span class=hljs-built_in >Set</span>([<span class=hljs-number >1</span>,<span class=hljs-number >2</span>,<span class=hljs-number >3</span>,<span class=hljs-number >4</span>])
+S=<span class=hljs-built_in >Set</span>(<span class=hljs-number >1</span>:<span class=hljs-number >3</span>:<span class=hljs-number >10</span>)
+<span class=hljs-number >2</span> <span class=hljs-keyword >in</span> S
+<span class=hljs-number >3</span> <span class=hljs-keyword >in</span> S
+issubset([<span class=hljs-number >1</span>,<span class=hljs-number >4</span>],S) 		<span class=hljs-comment >#[1,4]包含于S当中</span>
+
+A=<span class=hljs-built_in >Set</span>([<span class=hljs-number >1</span>,<span class=hljs-number >2</span>,<span class=hljs-number >3</span>,<span class=hljs-number >4</span>])
+B=<span class=hljs-built_in >Set</span>([<span class=hljs-number >2</span>,<span class=hljs-number >4</span>,<span class=hljs-number >6</span>,<span class=hljs-number >7</span>])
+<span class=hljs-comment ># A 交 B</span>
+intersect(A,B)
+
+<span class=hljs-comment ># A 或 B</span>
+union(A,B)
+
+<span class=hljs-comment >#不是Set也可进行交/或操作，但返回的不是Set</span>
+intersect([<span class=hljs-number >1</span>,<span class=hljs-number >2</span>,<span class=hljs-number >3</span>,<span class=hljs-number >4</span>],[<span class=hljs-number >2</span>,<span class=hljs-number >4</span>,<span class=hljs-number >6</span>,<span class=hljs-number >7</span>])</code></pre>
+<p></p>
+<div class=page-foot >
+  <div class=copyright >
+    &copy; Mingtao Li。最后更新：November 19, 2021。本站使用<a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a>和<a href="https://julialang.org">Julia编程语言</a>构建。
+  </div>
+</div>
+</div>

@@ -3,163 +3,169 @@
 
 <url>
     <loc>https://ai4energy.org/tutorial/06-control/overview/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/05-optimization/pyomo/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/03-modeling/overview/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/energy-related-open-soft/sam-ssc/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/julia-tutorial/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/04-simulation/overview/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/01-some-cs-intros/02-make-intro/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/07-ems/foresee/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/01-some-cs-intros/04-program-guide/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://ai4energy.org/julia-tutorial/02-Julia%E7%9A%84REPL%E5%8F%8A%E5%8F%98%E9%87%8F/index.html</loc>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/04-simulation/modelica/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/04-simulation/ees/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/04-simulation/gproms/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/05-optimization/reopt/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/07-ems/overview/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/chapters/01/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/02-julia/overview/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/05-optimization/openmdao/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/01-some-cs-intros/05-docker-intro/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/energy-related-open-soft/overview/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/julia-tutorial/01-Julia%E7%AE%80%E4%BB%8B%E5%8F%8A%E5%AE%89%E8%A3%85/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/05-optimization/overview/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/404/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/groups/capd/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://ai4energy.org/tutorial/05-optimization/jump.jl/index.html</loc>
-    <lastmod>2021-11-18</lastmod>
+    <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
