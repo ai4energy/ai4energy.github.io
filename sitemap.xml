@@ -140,12 +140,6 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://ai4energy.org/julia-tutorial/01-Julia%E7%AE%80%E4%BB%8B%E5%8F%8A%E5%AE%89%E8%A3%85/index.html</loc>
-    <lastmod>2021-11-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>https://ai4energy.org/tutorial/05-optimization/overview/index.html</loc>
     <lastmod>2021-11-19</lastmod>
     <changefreq>monthly</changefreq>
