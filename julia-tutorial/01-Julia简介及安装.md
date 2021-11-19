@@ -43,7 +43,7 @@
 
 到[Julia的官方站点](https://julialang.org/)下载最新稳定版的Julia（目前版本是1.6.3），根据自己的操作系统选择合适的版本，下载后根据安装提示选择合适的位置安装即可。我们可以使用[适用于Windows的x64免安装版本](https://julialang-s3.julialang.org/bin/winnt/x64/1.6/julia-1.6.3-win64.zip)。也可以在国内的镜像站点下载，比如直接从[清华的镜像](https://mirrors.tuna.tsinghua.edu.cn/julia-releases/bin/winnt/x64/1.6/julia-1.6.3-win64.zip)下载。
 
-如果使用免安装版本，解压后，Julia并不能直接在终端直接运行，需要先将Julia配置在环境变量中。我们下载完免安装版本后解压到合适的目录，比如D:\soft_using\julia-1.6.3。然后按如下操作添加环境变量：在“资源管理器”中“此电脑”内右键点“属性”—>点击“高级系统设置”—>点击“环境变量”—>在上方的“用户变量(U)”中对“Path”进行编辑 —>将Julia安装中“bin”文件夹所在的目录（此时是D:\soft_using\julia-1.6.3\bin）复制粘贴到此即可。如果不清楚什么是环境变量或者什么是PATH，请[参阅此文](https://www.cnblogs.com/qtiger/p/13903609.html)。这样我们就可以在命令行窗口内直接输入julia回车启动julia了。
+如果使用免安装版本，解压后，Julia并不能直接在终端直接运行，需要先将Julia配置在环境变量中。我们下载完免安装版本后解压到合适的目录。然后按如下操作添加环境变量：在“资源管理器”中“此电脑”内右键点“属性”—>点击“高级系统设置”—>点击“环境变量”—>在上方的“用户变量(U)”中对“Path”进行编辑 —>将Julia安装中“bin”文件夹所在的目录复制粘贴到此即可。如果不清楚什么是环境变量或者什么是PATH，请[参阅此文](https://www.cnblogs.com/qtiger/p/13903609.html)。这样我们就可以在命令行窗口内直接输入julia回车启动julia了。
 
 
 为了跟Linux的使用习惯一致，我们可以使用Cmder来替换cmd获得更舒服的体验。可以参考[此文](https://www.jianshu.com/p/5b7c985240a7)进行设置。还可以使用Windows Terminal作为[msys2](https://www.msys2.org/)、Cmder的统一界面。我们这里不展开。
@@ -90,4 +90,4 @@ julia>add IJulia
 using IJulia
 notebook()
 ```
-julia就会启动Jupyter，并使用默认的浏览器打开网页版的Jupyter环境。可以使用Jupyter进行交互式的编程。
+julia就会启动Jupyter，并使用默认的浏览器打开网页版的Jupyter环境。可以使用Jupyter进行交互式的编程。（Jupyter是基于python的，IJulia首次使用的时候系统会安装miniconda，通过conda安装Jupyter。）
