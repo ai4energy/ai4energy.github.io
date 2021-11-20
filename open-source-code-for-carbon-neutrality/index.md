@@ -22,3 +22,6 @@
 
 ## 能源管理系统
 
+## 其他
+
+- **CoolProp** —开源的物性数据库，C++编写，MIT许可证。有Python、Matlab、Modelica、Java接口，也能够通过Excel、FORTRAN、Javascript、PHP、Mathematica、Julia、Labview、EES等访问。难能可贵的是，CoolProp还提供了[NIST的REFPROP](https://www.nist.gov/srd/refprop)的接口.换言之，可以通过CoolProp的python接口访问REFPROP的所有功能。[点击访问CoolProp官方网站](http://coolprop.org/)
