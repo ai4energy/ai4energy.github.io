@@ -2,7 +2,8 @@
 
 Ai4Energy : 奔向智慧能源新时代
 
-这是Ai4Energy的主页，使用Franklin.jl进行文档管理。
+这是Ai4Energy的主页仓库，使用Franklin.jl进行文档管理。请访问<https://ai4energy.github.io/>查看。
+
 
 如果是本地查看相关内容，请按如下指引使用Franklin.jl。
 ```julia
