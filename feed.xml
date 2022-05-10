@@ -23,12 +23,12 @@
 
 <item>
   <title>
-    <![CDATA[  02-Julia的REPL及变量  ]]>
+    <![CDATA[  碳中和相关开源软件汇编  ]]>
   </title>
-  <link> https://ai4energy.org/julia-tutorial/02-Julia的REPL及变量/index.html </link>
-  <guid> https://ai4energy.org/julia-tutorial/02-Julia的REPL及变量/index.html </guid>
+  <link> https://ai4energy.org/open-source-code-for-carbon-neutrality/index.html </link>
+  <guid> https://ai4energy.org/open-source-code-for-carbon-neutrality/index.html </guid>
   <description>
-    <![CDATA[  Julia的REPL及变量  ]]>
+    <![CDATA[  碳中和相关开源软件汇编  ]]>
   </description>  
     
   <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>  
@@ -42,12 +42,12 @@
 
 <item>
   <title>
-    <![CDATA[  碳中和相关开源软件汇编  ]]>
+    <![CDATA[  02-Julia的REPL及变量  ]]>
   </title>
-  <link> https://ai4energy.org/open-source-code-for-carbon-neutrality/index.html </link>
-  <guid> https://ai4energy.org/open-source-code-for-carbon-neutrality/index.html </guid>
+  <link> https://ai4energy.org/julia-tutorial/02-Julia的REPL及变量/index.html </link>
+  <guid> https://ai4energy.org/julia-tutorial/02-Julia的REPL及变量/index.html </guid>
   <description>
-    <![CDATA[  碳中和相关开源软件汇编  ]]>
+    <![CDATA[  Julia的REPL及变量  ]]>
   </description>  
     
   <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>  
@@ -80,12 +80,12 @@
 
 <item>
   <title>
-    <![CDATA[  Julia快速入门  ]]>
+    <![CDATA[  Julia简介及安装  ]]>
   </title>
-  <link> https://ai4energy.org/julia-tutorial/index.html </link>
-  <guid> https://ai4energy.org/julia-tutorial/index.html </guid>
+  <link> https://ai4energy.org/julia-tutorial/01-Julia简介及安装/index.html </link>
+  <guid> https://ai4energy.org/julia-tutorial/01-Julia简介及安装/index.html </guid>
   <description>
-    <![CDATA[  Julia快速入门  ]]>
+    <![CDATA[  Julia简介及安装  ]]>
   </description>  
     
   <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>  
@@ -99,12 +99,12 @@
 
 <item>
   <title>
-    <![CDATA[  Julia简介及安装  ]]>
+    <![CDATA[  Julia快速入门  ]]>
   </title>
-  <link> https://ai4energy.org/julia-tutorial/01-Julia简介及安装/index.html </link>
-  <guid> https://ai4energy.org/julia-tutorial/01-Julia简介及安装/index.html </guid>
+  <link> https://ai4energy.org/julia-tutorial/index.html </link>
+  <guid> https://ai4energy.org/julia-tutorial/index.html </guid>
   <description>
-    <![CDATA[  Julia简介及安装  ]]>
+    <![CDATA[  Julia快速入门  ]]>
   </description>  
     
   <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>  
@@ -137,12 +137,12 @@
 
 <item>
   <title>
-    <![CDATA[  git 和 github  ]]>
+    <![CDATA[  环境变量入门  ]]>
   </title>
-  <link> https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html </link>
-  <guid> https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html </guid>
+  <link> https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html </link>
+  <guid> https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html </guid>
   <description>
-    <![CDATA[  git 和 github  ]]>
+    <![CDATA[  环境变量入门  ]]>
   </description>  
     
   <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  
@@ -156,12 +156,12 @@
 
 <item>
   <title>
-    <![CDATA[  环境变量入门  ]]>
+    <![CDATA[  git 和 github  ]]>
   </title>
-  <link> https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html </link>
-  <guid> https://ai4energy.org/tutorial/01-some-cs-intros/01-env-intro/index.html </guid>
+  <link> https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html </link>
+  <guid> https://ai4energy.org/tutorial/01-some-cs-intros/03-git-intro/index.html </guid>
   <description>
-    <![CDATA[  环境变量入门  ]]>
+    <![CDATA[  git 和 github  ]]>
   </description>  
     
   <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>  
