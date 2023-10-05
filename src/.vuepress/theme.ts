@@ -3,18 +3,18 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://ai4energy.cn",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Mingtao Li",
+    url: "https://mingtaoli.cn",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "ai4energy/ai4energy.github.io",
 
   docsDir: "src",
 
