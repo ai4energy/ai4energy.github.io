@@ -2,7 +2,7 @@
 title: Ai4EDocs
 icon: file
 order: 1
-author: Mingtao Li
+author: Ai4Energy
 comment: false
 ---
 ## 文档内容

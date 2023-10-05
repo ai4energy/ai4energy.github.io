@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://ai4energy.cn",
 
   author: {
-    name: "Mingtao Li",
+    name: "Ai4Energy",
     url: "https://mingtaoli.cn",
   },
 
@@ -45,7 +45,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "<div><span><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">陕ICP备19000424号-2</a></span>|<span><a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010302001034\" target=\"_blank\"><img src=\"/assets/image/beianicon.png\">陕公网安备 61010302001034号</a></span></div>",
 
       displayFooter: true,
 

@@ -5,12 +5,12 @@ export const zhNavbar = navbar([
   {
     text: "导论课程",
     icon: "chalkboard-user",
-    link: "/docs/",
+    link: "/courses/",
   },
   {
     text: "路线图",
     icon: "chart-line",
-    link: "/docs/",
+    link: "/roadmap/",
   },
   {
     text: "Ai4E文档",
@@ -20,26 +20,31 @@ export const zhNavbar = navbar([
   {
     text: "虚拟实验室",
     icon: "flask",
-    link: "/docs/",
+    link: "/ai4elab/",
   },
   {
     text: "组件库",
     icon: "puzzle-piece",
-    link: "/docs/",
+    link: "/ai4ecomplib/",
   },
   {
     text: "碳中和开源汇编",
     icon: "share-nodes",
-    link: "/docs/",
+    link: "/awesome-carbon-neutrality/",
   },
   {
     text: "新闻",
     icon: "newspaper",
-    link: "/docs/",
+    link: "/news/",
+  },
+  {
+    text: "赞助商专享",
+    icon: "trophy",
+    link: "/sponsoronly/",
   },
   {
     text: "源码",
     icon: "code",
-    link: "/docs/",
+    link: "https://github.com/ai4energy/",
   },
 ]);

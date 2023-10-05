@@ -11,7 +11,7 @@ heroText: 奔向智慧能源新时代
 tagline: Heading Towards a New Era of Smart Energy
 
 copyright: 版权所有 © 2019-2023 Ai4Energy
-footer: <a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备19000424号-2</a> | <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010302001034" target="_blank">陕公网安备 61010302001034号</a>
+footer: <div><span><a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备19000424号-2</a></span>|<span><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010302001034" target="_blank"><img src="/assets/image/beianicon.png">陕公网安备 61010302001034号</a></span></div>
 ---
 
 
