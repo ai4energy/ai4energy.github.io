@@ -7,8 +7,8 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Ai4Energy
-tagline: 奔向智慧能源新时代
+heroText: 奔向智慧能源新时代
+tagline: Heading Towards a New Era of Smart Energy
 
 copyright: 版权所有 © 2019-2023 Ai4Energy
 footer: <a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备19000424号-2</a> | <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010302001034" target="_blank">陕公网安备 61010302001034号</a>
