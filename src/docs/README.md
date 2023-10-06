@@ -5,7 +5,6 @@ order: 1
 author: Ai4Energy
 comment: false
 ---
-## 文档内容
 
 - [编程基础入门知识](01CSBase)
 
