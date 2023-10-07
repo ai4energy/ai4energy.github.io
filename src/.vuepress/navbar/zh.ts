@@ -42,9 +42,4 @@ export const zhNavbar = navbar([
     icon: "trophy",
     link: "/sponsors/",
   },
-  {
-    text: "源码",
-    icon: "code",
-    link: "https://github.com/ai4energy/",
-  },
 ]);

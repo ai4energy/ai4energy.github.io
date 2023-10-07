@@ -7,14 +7,16 @@ export default hopeTheme({
 
   author: {
     name: "Ai4Energy",
-    url: "https://mingtaoli.cn",
+    url: "https://ai4energy.cn",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.svg",
 
-  repo: "ai4energy/ai4energy.github.io",
+  editLink: false,
+
+  repo: "ai4energy/",
 
   docsDir: "src",
 
@@ -26,7 +28,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "<div><span><a href=\"https://beian.miit.gov.cn/\" target=\"_blank\">陕ICP备19000424号-2</a></span>|<span><a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61010302001034\" target=\"_blank\"><img src=\"/assets/image/beianicon.png\">陕公网安备 61010302001034号</a></span></div>",
 
       displayFooter: true,
 
@@ -58,8 +60,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
+      "/sponsors/": ["ai4energy"],      
     },
   },
 
