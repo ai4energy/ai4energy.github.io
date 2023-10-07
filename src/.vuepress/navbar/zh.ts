@@ -38,9 +38,9 @@ export const zhNavbar = navbar([
     link: "/news/",
   },
   {
-    text: "赞助商专享",
+    text: "赞助商专属",
     icon: "trophy",
-    link: "/sponsoronly/",
+    link: "/sponsors/",
   },
   {
     text: "源码",
