@@ -3,7 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   {
-    text: "导论课程",
+    text: "课程",
     icon: "chalkboard-user",
     link: "/courses/",
   },
@@ -18,14 +18,14 @@ export const zhNavbar = navbar([
     link: "/docs/",
   },
   {
-    text: "虚拟实验室",
-    icon: "flask",
-    link: "/ai4elab/",
-  },
-  {
     text: "组件库",
     icon: "puzzle-piece",
     link: "/ai4ecomplib/",
+  },
+  {
+    text: "虚拟实验室",
+    icon: "flask",
+    link: "/ai4elab/",
   },
   {
     text: "碳中和开源汇编",
@@ -41,5 +41,10 @@ export const zhNavbar = navbar([
     text: "赞助商专属",
     icon: "trophy",
     link: "/sponsors/",
+  },
+  {
+    text: "联系我们",
+    icon: "envelope",
+    link: "/contactus/",
   },
 ]);
