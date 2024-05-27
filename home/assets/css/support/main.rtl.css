@@ -1,0 +1,83 @@
+/*----------------------------------------------
+*
+* [RTL Support Stylesheet]
+*
+* Theme    : NEXGEN
+* Version  : 1.1.0
+* Author   : Codings
+* Support  : codings.dev
+* 
+----------------------------------------------*/
+
+/*----------------------------------------------
+
+[ALL CONTENTS]
+
+1. Support
+
+----------------------------------------------*/
+
+/*----------------------------------------------
+1. Support
+----------------------------------------------*/
+
+/* #region Support */
+
+body {
+    direction: rtl;
+}
+
+body .navbar-nav i.icon-arrow-down {
+    margin: 0 0.3rem 0 0;
+}
+
+body .btn i {
+    margin-left: 0.5rem;
+}
+
+body .dark-button:after {
+    right: 2px;
+    left: 0;
+}
+
+body h2.featured.alt:before {
+    left: initial;
+    right: 0;
+}
+
+body h2.featured:before {
+    left: initial;
+    right: 15px;
+}
+
+body .items .item:first-child .card.featured:before {
+    top: -10px;
+    right: -10px;
+    bottom: 0;
+    left: -0;
+}
+
+body .items .item:last-child .card.featured:before {
+    left: -10px;
+    right: initial;
+}
+
+body .progressbar {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+body .progressbar li {
+    font-size: 0;
+}
+
+body .progressbar li:before {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+body .lg-outer {
+    direction: initial;
+}
+
+/* #endregion Support */
