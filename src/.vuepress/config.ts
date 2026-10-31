@@ -7,13 +7,13 @@ export default defineUserConfig({
   locales: {
     "/en/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "Ai4Energy",
+      description: "Heading Towards a New Era of Smart Energy",
     },
     "/": {
       lang: "zh-CN",
       title: "Ai4Energy",
-      description: "Ai4Energy的主页",
+      description: "奔向智慧能源新时代",
     },
   },
 
